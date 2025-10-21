@@ -929,3 +929,54 @@ footer nav a:hover {
 #send-post ul {
     list-style: none;
 }
+
+/* dit is waar ik elke ster op de goede plek neer zet */
+
+.ster.s1{
+    position: absolute;
+
+    top: 65%;
+    left: 25%; 
+}
+
+.ster.s2{
+    position: absolute;
+
+    top: 140%;
+    left: 75%; 
+}
+
+.ster.s3{
+    position: absolute;
+
+    top: 240%;
+    left: 25%;
+}
+
+.ster.s4{
+    position: absolute;
+
+    top: 240%;
+    left: 60%;
+}
+
+.ster.s5{
+    position: absolute;
+
+    top: 405%;
+    left: 30%; 
+}
+
+.ster.s6{
+    position: absolute;
+
+    top: 450%;
+    left: 20%; 
+}
+
+.ster.s7{
+    position: absolute;
+
+    top: 490%;
+    left: calc(50% -20px); 
+}
