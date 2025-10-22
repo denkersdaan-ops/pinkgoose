@@ -775,14 +775,14 @@ footer nav a:hover {
 }
 
 #send-post {
-    width: 30vw;
+    width: 40vw;
     display: flex;
     padding: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
 
     background-color: #121E28;
     border-radius: 40px;
+
+    border: #2A3744 solid 2px;
 
     flex-direction: column;
 
@@ -791,14 +791,14 @@ footer nav a:hover {
 
 
 #textarea {
-    background-color: #121E28;
+    background-color: #101b24;
 
     color: white;
 
     margin-bottom: 20px;
 
     /* min padding van text*/
-    width: calc(80% - 80px);
+    width: calc(60% - 80px);
     align-self: center;
 
     line-height: 20px;
@@ -828,7 +828,7 @@ footer nav a:hover {
 
 
 #send-post input {
-    background-color: #121E28;
+    background-color: #101b24;
 
     color: white;
 
@@ -837,7 +837,7 @@ footer nav a:hover {
     line-height: 50px;
 
     /* min padding van text*/
-    width: calc(80% - 80px);
+    width: calc(60% - 80px);
     align-self: center;
 
     word-wrap: break-word;
@@ -851,7 +851,7 @@ footer nav a:hover {
 
 
 #send-post p {
-    background-color: #121E28;
+    background-color: #101b24;
 
     color: gray;
 
@@ -875,14 +875,14 @@ footer nav a:hover {
 }
 
 .set-color {
-    width: 80%;
+    width: 60%;
 
     font-size: 16px;
 }
 
 #send-post ul {
     display: flex;
-    background-color: #121E28;
+    background-color: #101b24;
 
     flex-direction: column;
     align-items: start;
@@ -941,6 +941,18 @@ footer nav a:hover {
 
 #send-post ul {
     list-style: none;
+}
+
+#send-post button {
+    padding: 20px 60px;
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: #CEAAFF;
+
+    align-self: flex-end;
 }
 
 /* dit is waar ik elke ster op de goede plek neer zet */
