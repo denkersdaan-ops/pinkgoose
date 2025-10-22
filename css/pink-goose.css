@@ -797,7 +797,8 @@ footer nav a:hover {
 
     margin-bottom: 20px;
 
-    width: 80%;
+    /* min padding van text*/
+    width: calc(80% - 80px);
     align-self: center;
 
     line-height: 20px;
@@ -820,6 +821,11 @@ footer nav a:hover {
     opacity: 0.7;
 }
 
+#textarea:read-write {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 
 #send-post input {
     background-color: #121E28;
@@ -830,19 +836,24 @@ footer nav a:hover {
 
     line-height: 50px;
 
-    width: 80%;
+    /* min padding van text*/
+    width: calc(80% - 80px);
     align-self: center;
 
     word-wrap: break-word;
     border: #2A3744 solid 2px;
 
+    padding-left: 40px;
+    padding-right: 40px;
+
     border-radius: 10px;
 }
+
 
 #send-post p {
     background-color: #121E28;
 
-    color: #9AAFC3;
+    color: gray;
 
     margin-bottom: 20px;
 
@@ -865,6 +876,8 @@ footer nav a:hover {
 
 .set-color {
     width: 80%;
+
+    font-size: 16px;
 }
 
 #send-post ul {
@@ -877,7 +890,7 @@ footer nav a:hover {
 
     height: 300px;
 
-    color: #9AAFC3;
+    color: gray;
 
     margin: 0;
 
@@ -907,22 +920,22 @@ footer nav a:hover {
 }
 
 .set-color:has(li:nth-child(1) input:hover) p::after {
-    color: #9AAFC3;
+    color: gray;
     content: " Red";
 }
 
 .set-color:has(li:nth-child(2) input:hover) p::after {
-    color: #9AAFC3;
+    color: gray;
     content: " White";
 }
 
 .set-color:has(li:nth-child(3) input:hover) p::after {
-    color: #9AAFC3;
+    color: gray;
     content: " Blue";
 }
 
 .set-color:has(li:nth-child(4) input:hover) p::after {
-    color: #9AAFC3;
+    color: gray;
     content: " Black";
 }
 
